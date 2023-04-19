@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in Html~</title>
+</head>
+<body>
+    <form autocomplete="off" action="file.php" method="post">
+    <h3 >General details</h3>
+        <div>
+            <label for="username">User Name</label> <br>
+            <input type="text" name="username">
+        </div>
+        <div>
+            <label for="FullName">Full Name</label> <br>
+            <input type="text" name="FName">
+        </div>
+        <div>
+            <label for="MobNum">Mobile Number</label> <br>
+            <input type="number" name="number">
+        </div>
+        <div>
+            <label for="Email">Mail-Id</label> <br>
+            <input type="text" name="email">
+        </div>
+        <div>
+            <label for="Password">Password</label> <br>
+            <input type="password" name="password"> <br> <br>
+        </div>
+        <div>
+            <label for="Gender">Gender:</label> <br> <br>
+            Male:<input type="radio" name="gender"> <br>
+            Female:<input type="radio" name="gender"> <br> <br>
+        </div>
+        <div>
+            <label for="Subjects">Subject:</label> <br> <br>
+            Html: <input type="checkbox" name="html"><br>
+            Css <input type="checkbox" name="Css"><br>
+            Js: <input type="checkbox" name="Js"><br> <br>
+        </div>
+        <div>
+            <input type="datetime-local" > <br>
+            <input type="date"><br>
+            <input type="time"> <br>
+            <input type="month"> <br>
+            <input type="week"> <br>
+            <input type="file"> <br>
+            <input type="range" > <br> <br>
+        </div>
+        <div>  
+            <label for="subject">Choose a Subject </label>
+            <select name="sub" id="subject">
+                <option value="html">html</option>
+                <option value="Css">Css</option>
+                <option value="Js">Js</option>
+            </select>
+        </div>
+        <div>
+            <label for="address">Address</label> <br>
+            <textarea name="text"  cols="30" rows="10" maxlength="100"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
