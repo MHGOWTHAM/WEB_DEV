@@ -1,0 +1,55 @@
+
+/* tag selector - use html tags to select an elements*/
+p{
+    border: 1px dashed blueviolet;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 300;
+}
+h1{
+    border: 2px dotted maroon;
+    color: rgb(78, 47, 255);
+    font-size: 30px;
+}
+
+
+/* class selector - it selects html element with class atribute */
+.para{
+    color:brown;
+}
+
+
+/* id selector - select an element from the html tags which has id attribute */
+#para-0{
+    color: aqua;
+
+}
+
+/* universal selector - selects all the element from the page */
+*{
+    text-align: center;
+}
+
+
+/* grouping selector - grouping df selector with same style (it maybe a class or id or tag)
+  example:
+    .para,#para-0,p,h1{
+        color:grey;
+    } */
+
+
+.btn{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+.btn-1{
+    background-color: orange;
+}
+.btn-2{
+    background-color: violet;
+}
+.btn-3{
+    background-color: green;
+}
