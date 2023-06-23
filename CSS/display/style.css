@@ -1,0 +1,14 @@
+p{
+    display:none;
+    /* display:block, inline-block,none,inline; */
+    /*-> block - A block-level element always starts on a new line and takes up the full width available 
+      -> inline - An inline element does not start on a new line and only takes up as much width as necessary.
+      -> inline-block -  allows to set a width and height on the element.but inline they are not.
+      -> Compared to display: block, the major difference is that display: inline-block does not
+        add a line-break after the element, so the element can sit next to other elements  */
+    background-color: aqua;
+    color: blueviolet; 
+}
+div:hover p{
+    display: block;
+}

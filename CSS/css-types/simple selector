@@ -1,0 +1,27 @@
+/* simple selector - selects the element of the tags */
+
+/* class tag  */
+.p{
+    color:blue;
+}
+
+/* id tag  */
+#p {
+    background-color: grey;
+}
+
+/* tag  */
+div{
+    font-size: 10px;
+}
+
+/* universal tag  */
+ *{
+    background-color: aqua;
+ }
+
+ /* grouping tag  */
+
+ p,h1,div{
+    color: blueviolet;
+ }

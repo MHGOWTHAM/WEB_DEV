@@ -1,0 +1,31 @@
+div{
+    position: absolute;
+    /* z-index:0; */
+    width: 75px;
+    height: 75px;;
+}
+.red{
+    margin-top: 20px; 
+    margin-left: 20px;
+    background-color: red;
+    z-index:2;
+}
+.yellow{
+    top: 80px;
+    left: 80px;
+    z-index: -1;
+    background-color: yellow;
+   
+}
+.green{
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: green;
+    z-index:1;
+}
+.blue{
+    top: 60px;
+    left: 60px;
+    background-color: blue;
+    z-index:0;
+}

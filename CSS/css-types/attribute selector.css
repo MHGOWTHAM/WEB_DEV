@@ -1,0 +1,8 @@
+input[type="text"]{
+    background-color: rgb(23, 195, 218);
+    color: yellowgreen;
+}
+a[target]{
+    font-size: 200px;
+    background-color: yellow;
+}

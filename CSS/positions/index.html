@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions in css</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .parent{
+        height: 200vh;
+        background-color: yellow;
+        color: black;
+        padding: 30px;
+    }
+    .child{
+        padding: 15px;
+    }
+    .child-one{
+        background-color: red;
+    }
+    .child-two{
+        background-color: green;
+    }
+    .child-three{
+        background-color: blue;
+    }
+    </style>
+</head>
+<body>
+    <h1>Positions in css</h1>
+    <ul>
+        <li>Static : The original or default poition of an element. </li>
+        <li>Relative : Element is positioned relative to it's normal position.same as static positioning, 
+            we can able to move the element by setting the offset values. Element stays in normal doc flow.</li>
+        <li>Absolute : Element is positioned relative to it's parent. If the parent is not present the element is position
+             relative to its main document.Element is removed from the normal document flow, no space is created for that 
+             element.  </li>
+        <li>Fixed : Element is positioned relative to it viewport. 
+            Even we scroll down page,the element stays in it's same position.</li>
+        <li>Sticky : Element is positioned relative to it's normal document flow.Till the element reach the top remains 
+            same, after it touches the top it becomes fixed. </li>
+    </ul>
+    
+    <div class="parent">
+        Parent
+        <div class="child child-one">One
+            <div class="child child-two">Two</div>
+        </div>
+        <!-- <div class="child child-two">Two</div> -->
+        <div class="child child-three">Three</div>
+        <p> <b>This a fixed position.</b></p>
+        <nav>
+            <h3>This a nav bar.</h3>
+        </nav>
+    </div>
+    
+
+    
+    
+</body>
+</html>

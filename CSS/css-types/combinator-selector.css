@@ -1,0 +1,45 @@
+ /*  Combinator selector
+
+ syntax-Between the simple selectors, we can include a combinator.
+ 
+ 1.General sibling selector -select all the p tag sibling elements that comes after h1 tag */
+/* 
+ h1~p{
+    background-color: aqua;
+} 
+p~h1{
+    background-color: blue;
+}
+div~p{
+    color:blueviolet;
+} 
+p ~ div{
+    font-size: 30px;
+} */
+
+/* target all the h1 tags that are sibling of elements wh have class name as 'para'  */
+/* .para ~ h1{
+    border: 3px solid black;
+}
+h1 ~ #para-0{
+    background-color: orangered;
+}  */
+
+/* 2.Adjacent sibling selector - target class-para that comes immediately after the id-head  */
+
+/* #head + .para {
+    background-color: indigo;
+    font-size: 20px;
+} */
+
+/* 3. Child selector - target all the p tags direct children of div tag  */
+/* 
+.demo > p{
+    color: rgb(4, 100, 145);
+}  */
+
+/*4.descendant selector - target all the descendant of an element */
+div ~ p{
+    background-color: red;
+}
+

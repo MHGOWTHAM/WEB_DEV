@@ -1,0 +1,42 @@
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: lightblue;
+    animation-name: roll;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    transform: translateX(20px);
+    /* reverse(backwards), normal(forward), alternate(forward-backward), alternate-reverse(backward-forward) */
+}
+/* @keyframes roll{
+    from{
+        background-color: lightblue;
+    }
+    to{
+        background-color: darkblue;
+    }
+} */
+
+@keyframes roll{
+    10%{
+        background-color: lightblue;
+        transform: translateY(40px);
+        text-align: center;
+    }
+    40%{
+        background-color: rgb(228, 11, 11);
+        transform: translateY(80px);
+    }
+    70%{
+        background-color: rgb(76, 241, 71);
+        transform: translateX(150px);
+    }
+    100%{
+        background-color: yellow;
+        transform: translateX(200px);
+    }
+}

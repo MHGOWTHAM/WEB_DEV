@@ -8,7 +8,9 @@
 </head>
 <body>
     
-    <form autocomplete="off" action="file.php" method="post">
+    
+
+    <form autocomplete="off" action="file.php" >
     <h3 >General details</h3>
         <div>
             <label for="username">User Name</label> <br>
@@ -20,18 +22,18 @@
         </div>
         <div>
             <label for="MobNum">Mobile Number</label> <br>
-            <input type="number" name="number">
+            <input type="number" name="number" placeholder="Mobile number">
         </div>
         <div>
             <label for="Email">Mail-Id</label> <br>
-            <input type="text" name="email">
+            <input type="email" name="email">
         </div>
         <div>
             <label for="Password">Password</label> <br>
             <input type="password" name="password"> <br> <br>
         </div>
         <div>
-            <label for="Gender">Gender:</label> <br> <br>
+            <label for="Gender">Gender:</label> <br> 
             Male:<input type="radio" name="gender"> <br>
             Female:<input type="radio" name="gender"> <br> <br>
         </div>
@@ -41,6 +43,7 @@
             Css <input type="checkbox" name="Css"><br>
             Js: <input type="checkbox" name="Js"><br> <br>
         </div>
+        
         <div>
             <input type="datetime-local" > <br>
             <input type="date"><br>
@@ -50,12 +53,21 @@
             <input type="file"> <br>
             <input type="range" > <br> <br>
         </div>
+        
+
         <div>  
             <label for="subject">Choose a Subject </label>
             <select name="sub" id="subject">
                 <option value="html">html</option>
                 <option value="Css">Css</option>
                 <option value="Js">Js</option>
+            </select>
+            <br>
+            <label for="car">Model of the car</label>
+            <select name="car" id="car" >
+                <option value="select" selected disabled>Select an option</option>
+                <option value="4-stroke">old model</option>
+                <option value="bs-6">new model</option>
             </select>
         </div>
         <div>
@@ -65,7 +77,10 @@
         <div>
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
+            <button>done</button>
         </div>
+        <input type="file" multiple>
     </form>
+
 </body>
 </html>

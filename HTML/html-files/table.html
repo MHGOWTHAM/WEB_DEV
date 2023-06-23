@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table in html</title>
     <!-- fav-icon -->
-    <link rel="icon" type="image/x-icon" href="../util/table-img.png">
+    <link rel="shortcut icon" href="../util/table-img.png" type="image/x-icon">
+    <!-- <link rel="icon" type="image/x-icon" href="../util/table-img.png"> -->
     <link rel="stylesheet" href="./style.css">
     <style>
          table,td,th{
             border: 1px solid black;
             border-collapse: collapse;
             text-align: center;
-            border-color: blue;
+            border-color: rgb(214, 211, 12);
          }
     </style>
     
 </head>
 <body>
+
+
     <table >
         <tr>
             <th>Name</th>
@@ -60,6 +63,29 @@
             <td>400</td>
         </tr>
 
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Age</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Abu</td>
+                <td>23</td>
+                <td rowspan="3">small</td>
+            </tr>
+            <tr>
+                <td>bro</td>
+                <td rowspan="2">24</td>
+            </tr>
+            <tr>
+                <td>Arul</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>

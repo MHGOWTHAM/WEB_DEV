@@ -1,0 +1,51 @@
+
+
+/* inline style attribute - 1000 */
+
+/* important property has - 10000 */
+
+/* id selector - 100 */
+#para-1{
+    color: darkmagenta !important;
+}
+
+
+/* class, pseudo-class, attribute has specifiity -10 */
+.para{
+    font-size: 30px;
+    color: violet;
+}
+
+:hover{
+    color: darkslategrey;
+    cursor: pointer;
+}
+[p$="top"]{
+    background-color: blue;
+}
+
+/* id selector - 100 */
+#para-1{
+    color: darkmagenta !important;
+}
+
+/* tags and pseudo element has specifity - (1) */
+li{
+    color: blue;
+}
+section{
+    color: aqua;
+}
+
+input{
+    border: 2px solid gray;
+}
+
+::marker{
+    color: red;
+}
+
+/* universal(*) has (0) specificity */
+/* *{
+    color: rgb(214, 14, 7);
+} */

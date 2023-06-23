@@ -1,0 +1,41 @@
+/* syntax ->any selector:pseudo class{} */
+
+/* selects all un-visisted links */
+/* a:link{
+    background-color: blue;
+    color: lightcoral;
+}
+
+
+/* select all visited links */
+/* a:visited{
+    background-color: greenyellow;
+    color: red;
+}
+
+/* add styles when you move your cursor over element  */
+/* p:hover{
+    background-color: rgb(121, 231, 17);
+   color: rgb(243, 9, 9);
+} */
+
+/* selects All active links */
+/* a:active{
+    background-color: lightslategrey;
+} */
+
+/* used to select ae elements that is focused on (used with input tags only)  */
+/* input:focus{
+    background-color: purple;
+}  
+ .on p:first-child{
+    color: rgb(17, 68, 238);
+} */
+.on p:nth-child(2n+2){
+    background-color: rgb(180, 238, 240);
+} 
+
+/* .on p:nth-child(odd)
+.on p:nth-child(even) */
+
+

@@ -1,0 +1,31 @@
+.container{
+    background-color: lightblue;
+    height: 400px;
+    display: flex;
+    /* (default flex direction is "row") */
+    /* flex-direction:row;  */
+    /* (default flex wrap is "no-wrap") */
+    /* flex-wrap: wrap;  (wrap-reverse)*/
+    flex-flow: row wrap;
+    justify-content: space-between;   /* set alignmnet in x-axis */
+    /* (start, end, flex-start(default), flex-end, space-around, space-evenly) */
+     /* align-items:center;   arrange elements in y-axis */
+     /*used to align flex items 
+     ( flex-start, flex-end, baseline, stretch(default) )*/
+    align-content: center;   /* work only when u have multiple rows and flex-wrap*/
+    row-gap: 10px;
+    column-gap:20px;
+    text-align: center;
+}
+.item{
+    background-color: darkblue;
+    font-size: 20px;
+    padding: 10px;
+    /* total web page has 100% width  */
+    width: 30%;
+    margin: 2px;
+    color: white;
+}
+.c{
+    border-bottom: solid;
+}

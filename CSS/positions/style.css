@@ -1,0 +1,41 @@
+.parent{
+    position: relative;
+    font-size: larger;
+    top: 10px;
+}
+.child{
+    
+}
+.child-one{
+    top: 10px;
+    left: 10px;
+    position: relative;
+}
+.child-two{
+    position:absolute;
+    top: 30px;
+    left: 30px;
+    
+}
+.child-three{
+}
+.parent p{
+    position: fixed;
+    background-color: black;
+    color: aliceblue;
+    bottom: -20px;
+    right:7px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid blue;
+}
+nav{
+    position: sticky;
+    background-color: black;
+    color: aliceblue;  
+    top: 0px;
+    /* width: 100%; */
+    padding: 20px;
+    text-align: center;
+}
+    

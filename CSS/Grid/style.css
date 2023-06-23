@@ -1,0 +1,36 @@
+.container{
+    height:100vh;
+    display: grid;
+    background-color: #add8e6;
+    /* (repeat(no. of col, width of each col) ,repeat(3,auto)) */
+    /* grid-template-columns: repeat(3,30%); */
+    grid-template-columns: auto auto auto auto ;
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(2,auto) 1fr; */
+    /* grid-template-rows: 100px 200px; */
+     /*( repeat(no. of row, height of each row) ,repeat(3,auto)) */
+    /* grid-template-rows: repeat(4,90px); */
+    /* column-gap: 30px;
+       row-gap: 50px; */
+    /* (row-col gap ) */
+    gap: 10px;
+    /* justify-items: stretch; (x-axis alignment)*/
+    /* place-items: (align-items: justify-items ); */
+    /* place-items: center center ; */
+    /* align-content: start;   */
+    align-content: center;
+    justify-content: center;  
+    /* (align the complete grid) */
+    /* justify-items: center;    */
+    /* (align the each element in the grid) */
+    padding:10px;
+}
+ .item{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 5px;
+    padding: 5px; 
+    
+}

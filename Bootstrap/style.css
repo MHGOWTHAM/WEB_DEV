@@ -1,0 +1,30 @@
+.carousel-inner {
+    
+    height: 80vh;
+   
+}
+
+/* .accordion-item {
+    width: 90%;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  
+}
+
+.accordion-header{
+    box-shadow: rgba(74, 74, 80, 0.2) 0px 7px 29px 0px ;
+}
+.accordion-button{
+    height:10vh;
+}
+
+.accordion-button:not(.collapsed){
+    background-color:white;
+}
+
+
+.accordion-button:focus {
+    box-shadow: none;
+    /* box-shadow:  0 0 0 0.25rem rgba(0,0,0,0); */
+

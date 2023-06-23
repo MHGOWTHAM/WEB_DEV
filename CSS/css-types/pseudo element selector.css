@@ -1,0 +1,22 @@
+/* Pseudo element */
+/* syntax -> any selector::pseudo class{} */
+.off::first-line{
+   background-color: brown; 
+}
+.off::first-letter{
+    color:rgb(225, 240, 19);
+}
+
+ 
+.on p::after{
+    content: "After the paragraph.";
+    background-color: green;
+}
+
+.on p::before{
+    content: "Before the paragraph.";
+    background-color: orgb(236, 101, 11);
+}
+input:hover{
+    background-color: darkred;
+} 
